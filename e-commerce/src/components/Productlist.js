@@ -5,7 +5,7 @@ import Product from './Product';
     render() {
         return (
             <div>
-                <Product/>
+                <Product></Product>
             </div>
         )
     }
