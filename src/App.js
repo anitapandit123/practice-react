@@ -46,7 +46,7 @@ class App extends Component {
         <Person 
           name={this.state.persons[0].name}
           age={this.state.persons[0].age}
-          clickListener={this.switchStateHandler.bind(this,'changed to Sofiya','25')}
+          clickListener={this.switchStateHandler.bind(this,'changed to Sofiya','25cle')}
           nameChanged={this.nameChangeHandler}/>
         <Person name={this.state.persons[1].name} age={this.state.persons[1].age}>My hobbies: Otdoor</Person>
       </div>
